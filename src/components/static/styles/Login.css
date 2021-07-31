@@ -1,0 +1,80 @@
+main {
+  height: calc(100vh - 90px);
+  margin-left: 30px;
+}
+.svg-container {
+  width: 60%;
+  justify-content: start;
+  align-items: center;
+  background-image: url("../icons/lback.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+.login-form {
+  width: 40%;
+}
+#svgImage {
+  height: 450px;
+  width: 600px;
+}
+#registerPara {
+  position: relative;
+  top: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #644f4f;
+  margin-left: -40px;
+}
+.form-input {
+  width: 400px;
+  height: 70px;
+  background: #e9eff6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+.login-form > div {
+  margin-top: 50px;
+}
+.form-input > input {
+  width: 353px;
+  height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: #e9eff6;
+}
+#eyeIcon {
+  position: relative;
+  right: 10px;
+}
+.forgot-container {
+  height: 20px;
+  width: 400px;
+  justify-content: flex-end;
+}
+#recovery {
+  float: right;
+}
+.submit-btn {
+  width: 400px;
+  height: 70px;
+  background: #4460f1;
+  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+}
+#submitbtn {
+  color: rgba(251, 249, 249, 1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  border: none;
+  background-color: inherit;
+}
